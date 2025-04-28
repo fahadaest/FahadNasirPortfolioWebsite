@@ -34,7 +34,7 @@ const tabList = [
 
 const About = () => {
   const [isTabActive, setIsTabAative] = useState("about");
-  
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -56,9 +56,9 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              I'm David Matias, I'm a Brand & Webflow Designer, Currently
-              residing in the lush Victoria Street London, Matias operates
-              globally and is ready to take on any design challenge.
+              I'm Fahad Nasir, I'm a Full Stack Developer, Currently
+              residing in the International City Dubai, Fahad operates
+              globally and is ready to take on any coding challenge.
             </p>
           </div>
           <div className="singletab">

@@ -35,13 +35,13 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> email </span>
-              <Link className="textp"> matias999@.com </Link>
+              <Link className="textp"> fahhadnasir@gmail.com </Link>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> call now </span>
-              <Link className="textp"> +98 4758 2154 021 </Link>
+              <Link className="textp"> +971 55 479 9130 </Link>
             </div>
           </div>
         </div>

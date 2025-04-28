@@ -17,12 +17,12 @@ const contactInfo = [
   {
     id: 1,
     system: "Email",
-    contact: "Matias999@Gmail.Com",
+    contact: "fahhadnasir@gmail.com",
   },
   {
     id: 2,
     system: "Phone",
-    contact: "+(2) 871 382 023",
+    contact: "+(971) 55 479 9130",
   },
   {
     id: 3,

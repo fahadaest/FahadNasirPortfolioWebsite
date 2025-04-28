@@ -36,10 +36,10 @@ const Footer = () => {
             <div className="col-lg-6">
               <div className="get__content">
                 <p>
-                  Hello, I’m David Matias, Website & User Interface Designer
-                  based in London.
+                  Hello, I'm Fahad Nasir, I'm a Full Stack Developer, Currently
+                  residing in the International City Dubai.
                 </p>
-                <a href="#0">davidmatias333@gmail.com</a>
+                <a href="#0">fahhadnasir@gmail.com</a>
               </div>
             </div>
             <div className="col-lg-6">
@@ -67,7 +67,7 @@ const Footer = () => {
             <p className="white">
               Copyright © 2023 {" "}
               <Link to={"/"} className="base">
-                Matias.
+                Fahad.
               </Link>{" "}
               All rights reserved.
             </p>

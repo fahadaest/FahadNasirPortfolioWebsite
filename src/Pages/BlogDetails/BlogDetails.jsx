@@ -84,7 +84,7 @@ const BlogDetails = () => {
                       suscipit laboriosam,
                     </p>
                     <h3 className="white mb-30">
-                      Matias is the only theme you will ever need
+                      Fahad is the only theme you will ever need
                     </h3>
                     <div className="thumb mb-30">
                       <img src={blogDetailsb2} alt="img" />
@@ -135,7 +135,7 @@ const BlogDetails = () => {
                     <div className="post__right">
                       <span className="fz-20 fw-500 white">Share :</span>
                       <ul className="social-cus d-flex align-items-center">
-                        {socialIcons.map(({id, icon}) => (
+                        {socialIcons.map(({ id, icon }) => (
                           <li key={id}>
                             <Link to="">
                               <i>
