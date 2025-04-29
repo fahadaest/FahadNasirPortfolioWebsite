@@ -2,11 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import {
-  Facebook,
-  Twitter,
   Linkedin,
-  Globe,
-  Instagram,
+  Github,
   PlayFill,
 } from "react-bootstrap-icons";
 
@@ -19,23 +16,13 @@ import VideoPlay from "../Shared/VideoPlay/VideoPlay";
 const socalIcon = [
   {
     id: 1,
-    icon: <Facebook />,
+    icon: <Linkedin />,
+    url: "https://www.linkedin.com/in/fahadnasirr/",
   },
   {
     id: 2,
-    icon: <Twitter />,
-  },
-  {
-    id: 3,
-    icon: <Linkedin />,
-  },
-  {
-    id: 4,
-    icon: <Globe />,
-  },
-  {
-    id: 5,
-    icon: <Instagram />,
+    icon: <Github />,
+    url: "https://github.com/fahadaest",
   },
 ];
 const Banner = () => {
@@ -43,7 +30,7 @@ const Banner = () => {
   const [position, setPosition] = useState(false);
 
   useEffect(() => {
-    if(!position){
+    if (!position) {
       setPosition(true)
     }
   }, []);
@@ -68,9 +55,9 @@ const Banner = () => {
                 </span>
               </Link>
               <h1>
-                <span className="hone"> Creative Visual</span>
-                <span className="d-block designers" data-text="Designer">
-                  Designer
+                <span className="hone"> Full Stack</span>
+                <span className="d-block designers" data-text="Developer">
+                  Developer
                 </span>
               </h1>
               <div className="video__area">
@@ -86,10 +73,9 @@ const Banner = () => {
           </div>
           <div className="col-lg-4">
             <div
-              className={`banner__thumb  ${
-                position  ? "right_up_animat" : "right_up"
-              }`}
-             
+              className={`banner__thumb  ${position ? "right_up_animat" : "right_up"
+                }`}
+
             >
               <img src={bannerMan} alt="man-img" />
             </div>
@@ -101,7 +87,7 @@ const Banner = () => {
           <Link to={""}>
             <img src={dial} alt="img" />
           </Link>
-          <Link to={""}>(+02)-574-328-301</Link>
+          <Link to={""}>(+971) 55 479 9130</Link>
         </div>
         <div className="right__infoscroll">
           <Link className="scroll">
@@ -123,12 +109,12 @@ const Banner = () => {
         </div>
         <div className="banner__xlsocial">
           <ul className="banner__soci d-grid justify-content-center">
-            {socalIcon.map(({ icon, id }) => {
+            {socalIcon.map(({ icon, id, url }) => {
               return (
                 <li key={id}>
-                  <Link to={""} >
+                  <a href={url} target="_blank" rel="noopener noreferrer">
                     <i>{icon}</i>
-                  </Link>
+                  </a>
                 </li>
               );
             })}
