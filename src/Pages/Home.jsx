@@ -26,9 +26,9 @@ const Home = () => {
   return (
     <>
       {isFetching && <Preloader />}
-      <MarqueeWapper direction="left" images={images} />
+      <MarqueeWapper direction="left" images={images} type={"text"} />
       <About />
-      <MarqueeWapper direction="right" images={images2} />
+      <MarqueeWapper direction="right" images={images2} type={"image"} />
       <Awards />
       <Projects />
       <Metting />
@@ -36,7 +36,7 @@ const Home = () => {
       <WorkeProcess />
       <Testimonial />
       <Blogs />
-      <ScrollRestoration/>
+      <ScrollRestoration />
     </>
   );
 };
