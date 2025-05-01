@@ -11,7 +11,8 @@ const MarqueeWapper = ({ images, direction, type }) => {
             images?.map(({ id, text }) => (
               <span
                 key={id}
-                className="mx-8 text-xl font-semibold lowercase whitespace-nowrap text-black"
+                className="mx-8 text-xl font-semibold whitespace-nowrap text-black"
+                style={{ marginLeft: "15px" }}
               >
                 {text}
               </span>

@@ -13,7 +13,7 @@ const BlogCard = ({ heading, para, image, date }) => {
       </Link>
       <div className="content">
         <span className="bdate d-flex align-items-center gap-1 ptext fz-16">
-          <span className="text-uppercase text-white">NEWS</span>. {date}
+          <span className=" text-white">NEWS</span>. {date}
         </span>
         <h3>
           <Link to={"/blog-details"}>{heading}</Link>

@@ -21,7 +21,7 @@ const ProjectCard = ({
       </div>
       <div className="content d-flex align-items-center justify-content-between gap-2">
         <Link to={navigate} className="left__cont">
-          <span className="base mb-2 mb-xxl-3 d-block text-uppercase">
+          <span className="base mb-2 mb-xxl-3 d-block ">
             {heading}
           </span>
           <h3>{subHeading}</h3>

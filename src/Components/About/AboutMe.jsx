@@ -3,7 +3,7 @@ import {
   Facebook,
   Twitter,
   Linkedin,
-  Globe,
+  Github,
   Instagram,
 } from "react-bootstrap-icons";
 
@@ -26,18 +26,15 @@ const contactInfo = [
   },
   {
     id: 3,
-    system: "Phone",
-    contact: "Victoria Street London,",
+    system: "Location",
+    contact: "International City, Dubai, UAE",
   },
   {
     id: 4,
     system: "Follow",
     socalContact: [
-      <Facebook />,
-      <Twitter />,
       <Linkedin />,
-      <Globe />,
-      <Instagram />,
+      <Github />,
     ],
   },
 ];
@@ -72,10 +69,7 @@ const AboutMe = ({ isTabActive }) => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                consectetur, aliquam quaerats voluptatem. Ut enim ad minima
-                veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem
-                velit esse quam nihil
+                A passionate React and MERN stack developer with 3+ years of hands-on experience building scalable web applications. Skilled in crafting responsive UIs, optimizing performance, and delivering clean, maintainable code in fast-paced environments
               </p>
               <div className="about__contactwrap">
                 <div className="row g-4">
@@ -91,7 +85,7 @@ const AboutMe = ({ isTabActive }) => {
                             <span className="ptext fz-18 mb-20 d-block">
                               {system}
                             </span>
-                            <Link to={""}>{contact}</Link>
+                            <Link to={""} className="no-transform">{contact}</Link>
                             {socalContact && (
                               <ul className="d-flex align-items-center gap-2 gap-xl-4">
                                 {socalContact.map((info, index) => (
