@@ -7,26 +7,20 @@ import "aos/dist/aos.css";
 const awardList = [
   {
     id: 1,
-    awardName: "Site Of The Day",
-    contest: "Css & Animation",
-    year: "2018",
+    awardName: "MERN Stack Development",
+    contest: "PNY arfa tower, Lahore",
+    year: "2022",
   },
   {
     id: 2,
-    awardName: "Best Business Model",
-    contest: "New Strategy",
-    year: "2019",
+    awardName: "Adavanced React JS Developer",
+    contest: "Coursera",
+    year: "2022",
   },
   {
     id: 3,
-    awardName: "Motion Graphic	",
-    contest: "3D & Visual Effect	",
-    year: "2020",
-  },
-  {
-    id: 4,
-    awardName: "Video Design	",
-    contest: "Css & Animation",
+    awardName: "Fullstack MERN Web-Developer",
+    contest: "Udemy",
     year: "2022",
   },
 ];
@@ -48,7 +42,7 @@ const Awards = () => {
             <tbody>
               <tr>
                 <td>
-                  <span className="table__title">Our Awards</span>
+                  <span className="table__title">My Awards & Certifications</span>
                 </td>
                 <td className="cusnoe"></td>
                 <td className="text-end">

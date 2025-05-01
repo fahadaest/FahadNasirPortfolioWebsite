@@ -8,8 +8,7 @@
   height: 90px;
   font-weight: 500;
   color: var(--white);
-  text-transform: lowercase;
-  letter-spacing: 7px;
+  letter-spacing: 0px;
 
   @include breakpoint(max-xxl) {
     font-size: 36px;
