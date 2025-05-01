@@ -1,6 +1,6 @@
 import React from "react";
 import personalInfothumb from "../../assets/img/about/personal-infothumb.png";
-import reactJs from "../../assets/img/about/reactjs.png";
+import reactJs from "../../assets/img/about/reactJs.png";
 import nodeJs from "../../assets/img/about/nodejs.png";
 import mongodb from "../../assets/img/about/mongodb.png";
 import tailwind from "../../assets/img/about/tailwindcss.png";
