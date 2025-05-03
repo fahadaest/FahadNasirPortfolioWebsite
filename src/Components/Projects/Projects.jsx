@@ -10,9 +10,10 @@ const Projects = () => {
   const [currentId, setCurrentId] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
-  const openLightbox = (index) => {
-    setCurrentId(index);
-    setLightboxOpen(true);
+  const openLightbox = (link) => {
+    console.log(link)
+    // setCurrentId(index);
+    // setLightboxOpen(true);
   };
 
   return (
@@ -24,15 +25,15 @@ const Projects = () => {
         />
 
         <div className={`project__wrapone`}>
-          {projectList.map(({ heading, id, image, subHeading }, index) => (
+          {projectList.map(({ heading, id, image, subHeading, link }, index) => (
             <ProjectCard
               key={id}
               image={image}
               heading={heading}
               subHeading={subHeading}
-              openLightbox={openLightbox}
+              // openLightbox={openLightbox(link)}
               index={index}
-              navigate="/protfolio"
+              navigate={link}
             />
           ))}
         </div>
@@ -49,6 +50,7 @@ const Projects = () => {
             </span>
           </Link>
         </div>
+
       </div>
       {lightboxOpen && (
         <Lightbox

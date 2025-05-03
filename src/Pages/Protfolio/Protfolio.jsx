@@ -69,9 +69,8 @@ const Protfolio = () => {
               {categoryList.map(({ id, categoryName, value }) => (
                 <li
                   key={id}
-                  className={`nav-links ${
-                    currentCategory === value ? "active" : ""
-                  } `}
+                  className={`nav-links ${currentCategory === value ? "active" : ""
+                    } `}
                 >
                   <button
                     className="tablink"
@@ -84,7 +83,7 @@ const Protfolio = () => {
             </ul>
             <div className="tabcontents project__wrapone">
               {filterProject.map(
-                ({ heading, id, image, subHeading }, index) => (
+                ({ heading, id, image, subHeading, link }, index) => (
                   <ProjectCard
                     key={id}
                     image={image}
@@ -92,7 +91,7 @@ const Protfolio = () => {
                     subHeading={subHeading}
                     openLightbox={openLightbox}
                     index={index}
-                    navigate="/protfolio-details"
+                    navigate={link}
                   />
                 )
               )}
