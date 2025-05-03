@@ -8,7 +8,7 @@ import AllBlogs from "../Pages/AllBlogs/AllBlogs";
 import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 import Protfolio from "../Pages/Protfolio/Protfolio";
 import ProtfolioDetails from "../Pages/ProtfolioDetails/ProtfolioDetails";
-import LuminaryHealth from "../Pages/ProtfolioDetails/luminaryHealth";
+import LuminaryHealth from "../Pages/ProtfolioDetails/LuminaryHealth";
 
 export const router = createBrowserRouter([
   {
