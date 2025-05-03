@@ -1,4 +1,4 @@
-import luminaryHealth1 from "../assets/img/project/luminaryHealth1.png";
+import luminaryHealth1 from "../assets/img/project/LuminaryHealth1.png";
 
 import pro1 from "../assets/img/project/pro1.png";
 import pro2 from "../assets/img/project/pro2.png";
