@@ -9,6 +9,7 @@ import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 import Protfolio from "../Pages/Protfolio/Protfolio";
 import ProtfolioDetails from "../Pages/ProtfolioDetails/ProtfolioDetails";
 import LuminaryHealth from "../Pages/ProtfolioDetails/LuminaryHealth";
+import PalPlug from "../Pages/ProtfolioDetails/PalPlug";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "/luminary-health",
         element: <LuminaryHealth />,
+      },
+      {
+        path: "/palPlug",
+        element: <PalPlug />,
       },
     ],
   },

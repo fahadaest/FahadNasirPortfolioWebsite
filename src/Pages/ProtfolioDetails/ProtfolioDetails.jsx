@@ -22,6 +22,7 @@ const ProtfolioDetails = () => {
   const closeLightbox = () => {
     setLightboxOpen(false);
   };
+
   return (
     <>
 

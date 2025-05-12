@@ -1,4 +1,9 @@
-import luminaryHealth1 from "../assets/img/project/LuminaryHealth1.png";
+import referralTracker2 from "../assets/img/referralTracker/referralTracker2.png";
+import liberty911 from "../assets/img/liberty91/liberty91-1.png";
+import PalPlug1 from "../assets/img/palPlug/palPlug1.png";
+import lastingLove3 from "../assets/img/lastingLove/lastingLove3.png";
+import gunBuyBack1 from "../assets/img/gunBuyBack/gunBuyBack1.png";
+import ecomOrbit2 from "../assets/img/ecomOrbit/ecomOrbit2.png";
 
 import pro1 from "../assets/img/project/pro1.png";
 import pro2 from "../assets/img/project/pro2.png";
@@ -11,7 +16,7 @@ import pro6 from "../assets/img/project/pro6.png";
 export const projectList = [
   {
     id: 1,
-    image: luminaryHealth1,
+    image: referralTracker2,
     heading: "Web Application Development",
     subHeading: "Luminary Health",
     category: ["branding_app", "website", "all"],
@@ -19,38 +24,43 @@ export const projectList = [
   },
   {
     id: 2,
-    image: pro3,
-    heading: "Product Design",
-    subHeading: "Design & Branding Mokeup",
-    category: ["los_app", "landing_page", "all"]
+    image: PalPlug1,
+    heading: "Web Application Development",
+    subHeading: "PalPlug",
+    category: ["branding_app", "website", "all"],
+    link: "/palPlug"
   },
   {
     id: 3,
-    image: pro5,
-    heading: "UI/UX Design",
-    subHeading: "Mobile Application Development",
-    category: ["website", "branding_app", "all"],
+    image: gunBuyBack1,
+    heading: "Web Application Development",
+    subHeading: "GunBuyBack",
+    category: ["branding_app", "website", "all"],
+    link: "/luminary-health"
   },
   {
     id: 4,
-    image: pro2,
-    heading: "UI/UX Design",
-    subHeading: "Mobile Application Development",
-    category: ["los_app", "landing_page", "all"]
+    image: liberty911,
+    heading: "Web Application Development",
+    subHeading: "Liberty91",
+    category: ["branding_app", "website", "all"],
+    link: "/luminary-health"
   },
   {
     id: 5,
-    image: pro4,
-    heading: "UI/UX Design",
-    subHeading: "Mobile Application Development",
-    category: ["branding_app", "website", "all"]
+    image: lastingLove3,
+    heading: "Web Application Development",
+    subHeading: "Lasting Love",
+    category: ["branding_app", "website", "all"],
+    link: "/luminary-health"
   },
   {
     id: 6,
-    image: pro6,
-    heading: "UI/UX Design",
-    subHeading: "Mobile Application Development",
-    category: ["landing_page", "website", "all"]
+    image: ecomOrbit2,
+    heading: "Web Application Development",
+    subHeading: "Ecom Orbit",
+    category: ["branding_app", "website", "all"],
+    link: "/luminary-health"
   },
 ];
 

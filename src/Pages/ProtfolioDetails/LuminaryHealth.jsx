@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 import { imagesList, projectList } from "../../Utlits/projectList";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
-import luminaryHealth1 from "../../assets/img/luminaryHealth/luminaryHealth1.png";
-import luminaryHealth2 from "../../assets/img/luminaryHealth/luminaryHealth2.png";
-import luminaryHealth3 from "../../assets/img/luminaryHealth/luminaryHealth3.png";
-import luminaryHealth4 from "../../assets/img/luminaryHealth/luminaryHealth4.png";
-import luminaryHealth5 from "../../assets/img/luminaryHealth/luminaryHealth5.png";
-import luminaryHealth6 from "../../assets/img/luminaryHealth/luminaryHealth6.png";
+import luminaryHealth1 from "../../assets/img/referralTracker/referralTracker1.png";
+import luminaryHealth2 from "../../assets/img/referralTracker/referralTracker2.png";
+import luminaryHealth3 from "../../assets/img/referralTracker/referralTracker3.png";
+import luminaryHealth4 from "../../assets/img/referralTracker/referralTracker4.png";
+import luminaryHealth5 from "../../assets/img/referralTracker/referralTracker5.png";
+import luminaryHealth6 from "../../assets/img/referralTracker/referralTracker6.png";
 import detailbg from "../../assets/img/protfolio/prot-detailsbig.png";
 import detailbg1 from "../../assets/img/protfolio/prot-detials2.png";
 import detailbg2 from "../../assets/img/protfolio/prot-detials2.png";
@@ -28,6 +28,11 @@ const LuminaryHealth = () => {
   const closeLightbox = () => {
     setLightboxOpen(false);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
 
@@ -67,15 +72,6 @@ const LuminaryHealth = () => {
                   </div>
                 </div>
               </div>
-              {/* <ul className="social d-flex gap-3">
-                {socialIcons.map(({ icon, id }) => (
-                  <li key={id}>
-                    <Link to={""}>
-                      <i>{icon}</i>
-                    </Link>
-                  </li>
-                ))}
-              </ul> */}
             </div>
           </div>
           <div className="details__textwrap">
