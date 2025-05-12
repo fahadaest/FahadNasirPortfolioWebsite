@@ -1,6 +1,6 @@
 import referralTracker2 from "../assets/img/referralTracker/referralTracker2.png";
 import liberty911 from "../assets/img/liberty91/liberty91-1.png";
-import PalPlug1 from "../assets/img/palPlug/palPlug1.png";
+import PalPlug1 from "../assets/img/palPlug/palplug1.png";
 import lastingLove3 from "../assets/img/lastingLove/lastingLove3.png";
 import gunBuyBack1 from "../assets/img/gunBuyBack/gunBuyBack1.png";
 import ecomOrbit2 from "../assets/img/ecomOrbit/ecomOrbit2.png";
