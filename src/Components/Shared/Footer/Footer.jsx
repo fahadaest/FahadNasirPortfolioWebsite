@@ -1,27 +1,32 @@
 import React from "react";
-import { ArrowUpShort, ArrowRight } from "react-bootstrap-icons";
+import { ArrowUpShort, ArrowRight, Whatsapp, Linkedin, Github } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
 const socalList = [
   {
     id: 1,
-    platfrom: "Facebook",
-    icon: <ArrowRight />,
+    platfrom: "Whatsapp",
+    icon: <Whatsapp />,
+    url: "https://wa.me/971554799130",
   },
   {
     id: 2,
-    platfrom: "Instagram",
-    icon: <ArrowRight />,
+    platfrom: "Linkedin",
+    icon: <Linkedin />,
+    url: "https://linkedin.com/in/fahadnasirr/",
   },
   {
     id: 3,
-    platfrom: "Dribble",
+    platfrom: "Download CV",
     icon: <ArrowRight />,
+    url: "/MyCV.pdf",
+    download: true,
   },
   {
     id: 4,
-    platfrom: "Webflow",
-    icon: <ArrowRight />,
+    platfrom: "Github",
+    icon: <Github />,
+    url: "https://github.com/fahadaest",
   },
 ];
 const Footer = () => {
@@ -39,16 +44,16 @@ const Footer = () => {
                   Hello, I'm Fahad Nasir, I'm a Full Stack Developer, Currently
                   residing in the International City Dubai.
                 </p>
-                <a href="#0">fahhadnasir@gmail.com</a>
+                <a href="mailto:fahhadnasir@gmail.com?subject=Hello%20Fahad&body=I%20visited%20your%20portfolio!">fahhadnasir@gmail.com</a>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="get__rightcontetn">
                 <div className="row g-4">
-                  {socalList.map(({ id, icon, platfrom }) => {
+                  {socalList.map(({ id, icon, platfrom, url, download }) => {
                     return (
                       <div key={id} className="col-lg-6 col-md-6 col-sm-6">
-                        <a href="#0" className="social__footer">
+                        <a href={url} target="_blank" rel="noopener noreferrer" className="social__footer" download={download ? true : undefined}>
                           {platfrom}
                           <i>{icon}</i>
                         </a>

@@ -32,11 +32,11 @@ const Home = () => {
       <Awards />
       <Projects />
       <Metting />
-      <Services isHeading={true} />
+      {/* <Services isHeading={true} />
       <WorkeProcess />
       <Testimonial />
       <Blogs />
-      <ScrollRestoration />
+      <ScrollRestoration /> */}
     </>
   );
 };
