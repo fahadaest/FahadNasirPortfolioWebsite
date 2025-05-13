@@ -36,7 +36,7 @@ export const projectList = [
     heading: "Web Application Development",
     subHeading: "GunBuyBack",
     category: ["branding_app", "website", "all"],
-    link: "/luminary-health"
+    link: "/gunBuyBack"
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const projectList = [
     heading: "Web Application Development",
     subHeading: "Liberty91",
     category: ["branding_app", "website", "all"],
-    link: "/luminary-health"
+    link: "/liberty91"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const projectList = [
     heading: "Web Application Development",
     subHeading: "Lasting Love",
     category: ["branding_app", "website", "all"],
-    link: "/luminary-health"
+    link: "/lastingLove"
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const projectList = [
     heading: "Web Application Development",
     subHeading: "Ecom Orbit",
     category: ["branding_app", "website", "all"],
-    link: "/luminary-health"
+    link: "/ecomOrbit"
   },
 ];
 

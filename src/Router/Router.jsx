@@ -10,6 +10,11 @@ import Protfolio from "../Pages/Protfolio/Protfolio";
 import ProtfolioDetails from "../Pages/ProtfolioDetails/ProtfolioDetails";
 import LuminaryHealth from "../Pages/ProtfolioDetails/LuminaryHealth";
 import PalPlug from "../Pages/ProtfolioDetails/PalPlug";
+import Liberty91 from "../Pages/ProtfolioDetails/Liberty91";
+import GunBuyBack from "../Pages/ProtfolioDetails/GunBuyBack";
+import LastingLove from "../Pages/ProtfolioDetails/LastingLove";
+import EcomOrbit from "../Pages/ProtfolioDetails/EcomOrbit";
+import Wellwink from "../Pages/ProtfolioDetails/Wellwink";
 
 export const router = createBrowserRouter([
   {
@@ -55,6 +60,26 @@ export const router = createBrowserRouter([
       {
         path: "/palPlug",
         element: <PalPlug />,
+      },
+      {
+        path: "/liberty91",
+        element: <Liberty91 />,
+      },
+      {
+        path: "/gunBuyBack",
+        element: <GunBuyBack />,
+      },
+      {
+        path: "/ecomOrbit",
+        element: <EcomOrbit />,
+      },
+      {
+        path: "/lastingLove",
+        element: <LastingLove />,
+      },
+      {
+        path: "/wellwink",
+        element: <Wellwink />,
       },
     ],
   },
