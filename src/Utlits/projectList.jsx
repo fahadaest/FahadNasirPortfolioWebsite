@@ -4,6 +4,7 @@ import PalPlug1 from "../assets/img/palPlug/palplug1.png";
 import lastingLove3 from "../assets/img/lastingLove/lastingLove3.png";
 import gunBuyBack1 from "../assets/img/gunBuyBack/gunBuyBack1.png";
 import ecomOrbit2 from "../assets/img/ecomOrbit/ecomOrbit2.png";
+import wellWink1 from "../assets/img/wellwink/wellwink1.png";
 
 import pro1 from "../assets/img/project/pro1.png";
 import pro2 from "../assets/img/project/pro2.png";
@@ -19,7 +20,7 @@ export const projectList = [
     image: referralTracker2,
     heading: "Web Application Development",
     subHeading: "Luminary Health",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/luminary-health"
   },
   {
@@ -27,7 +28,7 @@ export const projectList = [
     image: PalPlug1,
     heading: "Web Application Development",
     subHeading: "PalPlug",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/palPlug"
   },
   {
@@ -35,7 +36,7 @@ export const projectList = [
     image: gunBuyBack1,
     heading: "Web Application Development",
     subHeading: "GunBuyBack",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/gunBuyBack"
   },
   {
@@ -43,7 +44,7 @@ export const projectList = [
     image: liberty911,
     heading: "Web Application Development",
     subHeading: "Liberty91",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/liberty91"
   },
   {
@@ -51,7 +52,7 @@ export const projectList = [
     image: lastingLove3,
     heading: "Web Application Development",
     subHeading: "Lasting Love",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/lastingLove"
   },
   {
@@ -59,8 +60,16 @@ export const projectList = [
     image: ecomOrbit2,
     heading: "Web Application Development",
     subHeading: "Ecom Orbit",
-    category: ["branding_app", "website", "all"],
+    category: ["all", "web_app"],
     link: "/ecomOrbit"
+  },
+  {
+    id: 7,
+    image: wellWink1,
+    heading: "Web Application Development",
+    subHeading: "Wellwink",
+    category: ["all", "web_app"],
+    link: "/wellwink"
   },
 ];
 

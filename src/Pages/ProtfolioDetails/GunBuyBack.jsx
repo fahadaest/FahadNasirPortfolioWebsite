@@ -3,15 +3,12 @@ import { Link } from "react-router-dom";
 
 import { imagesList, projectList } from "../../Utlits/projectList";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
-import PalPlug1 from "../../assets/img/palPlug/palplug1.png";
-import PalPlug2 from "../../assets/img/palPlug/palplug2.png";
-import PalPlug3 from "../../assets/img/palPlug/palplug3.png";
-import PalPlug4 from "../../assets/img/palPlug/palplug4.png";
-import PalPlug5 from "../../assets/img/palPlug/palplug5.png";
-import PalPlug6 from "../../assets/img/palPlug/palplug6.png";
-import detailbg from "../../assets/img/protfolio/prot-detailsbig.png";
-import detailbg1 from "../../assets/img/protfolio/prot-detials2.png";
-import detailbg2 from "../../assets/img/protfolio/prot-detials2.png";
+import GunBuyBack1 from "../../assets/img/gunBuyBack/gunBuyBack1.png";
+import GunBuyBack2 from "../../assets/img/gunBuyBack/gunBuyBack2.png";
+import GunBuyBack3 from "../../assets/img/gunBuyBack/gunBuyBack3.png";
+import GunBuyBack4 from "../../assets/img/gunBuyBack/gunBuyBack4.png";
+import GunBuyBack5 from "../../assets/img/gunBuyBack/gunBuyBack5.png";
+import GunBuyBack6 from "../../assets/img/gunBuyBack/gunBuyBack6.png";
 import ProjectCard from "../../Components/Shared/ProjectCard/ProjectCard";
 import Lightbox from "../../Components/Shared/LightBox/LightBox";
 import { socialIcons } from "../../Utlits/socilIcons";
@@ -35,9 +32,8 @@ const GunBuyBack = () => {
 
   return (
     <>
-
       <PageHeader
-        heading={"PalPlug"}
+        heading={"GunBuyBack"}
         page="Full Stack Development for GunBuyBack Platform"
       />
       <section className="protfolio__details pb-120">
@@ -47,7 +43,7 @@ const GunBuyBack = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img src={PalPlug1} alt="img" style={{
+            <img src={GunBuyBack1} alt="img" style={{
               height: '700px',
               width: '100%',
               objectFit: 'cover',
@@ -63,7 +59,7 @@ const GunBuyBack = () => {
                   </div>
                   <div className="items">
                     <h5>Date</h5>
-                    <p>2023-2024</p>
+                    <p>2024-2024</p>
                   </div>
                 </div>
                 <div className="prot__left">
@@ -86,14 +82,14 @@ const GunBuyBack = () => {
               data-aos-duration="1400"
             >
               <p className="fz-16 pra ttext__one">
-                PalPlug is a modern networking and career-growth platform that bridges the gap between job seekers (Pals) and experienced professionals (Plugs) within companies. Designed to simplify the job search process, PalPlug enables company employees to register as “Plugs” and offer valuable services such as employee referrals, resume reviews, and interview preparation.
+                GunBuyback.org is a federally licensed, secure online platform designed to help individuals safely and anonymously sell or surrender unwanted firearms. Built to support nationwide accessibility, the platform offers a streamlined process where users can receive an instant valuation, ship their firearms using prepaid FedEx labels, and receive payment—all from the privacy of their own homes. It eliminates the need for in-person exchanges or local law enforcement involvement, making responsible firearm disposal easier than ever.
               </p>
               <p className="fz-16 pra">
-                Over several months of iterative development and user research, PalPlug was built with a focus on trust, accessibility, and real-world career outcomes. The platform empowers job seekers to connect directly with industry insiders, increasing their chances of landing interviews through meaningful, personalized support. Each Plug has a dedicated profile showcasing their availability, expertise, and the companies they can refer to, while Pals can browse, connect, and track their progress through a clean and intuitive interface.
+                Throughout the development of GunBuyback.org, the core priorities were legal compliance, user trust, and system security. I built the platform using the MERN stack to ensure end-to-end encryption, robust user authentication, and scalable infrastructure. Key features include a dynamic pricing algorithm, secure document uploads, real-time tracking of firearm status, and automated notifications throughout the transaction lifecycle. A clean, responsive interface ensures a frictionless experience for users of all technical backgrounds.
               </p>
               <br></br>
               <p className="fz-16 pra">
-                PalPlug is more than just a referral platform — it’s a peer-powered ecosystem for mentorship and opportunity. With role-based access, secure messaging, real-time notifications, and scalable architecture, the platform supports thousands of users without compromising on performance or privacy. Whether you're a student breaking into tech or a mid-career professional seeking guidance, PalPlug makes the job-hunting journey more human, transparent, and effective.
+                GunBuyback.org isn’t just a tech solution—it’s a public safety initiative powered by smart engineering. With over 25,000 firearms processed and $15M paid out to users, the platform demonstrates how thoughtful digital design can contribute meaningfully to community safety. Whether someone is downsizing their collection or surrendering a weapon voluntarily, this project offers a reliable, private, and efficient pathway for firearm buybacks at scale.
               </p>
             </div>
             <div
@@ -104,28 +100,28 @@ const GunBuyBack = () => {
               <h3 className="text__boxhead">Challenge</h3>
               <ul className="challenge__list">
                 <li>
-                  Building trust between job seekers and company insiders (Plugs) was essential, especially when dealing with referrals and career advice.
+                  Establishing public trust was essential, especially when encouraging anonymous firearm submissions through an online platform.
                 </li>
                 <li>
-                  Encouraging employees to register as Plugs and actively participate required clear value propositions, intuitive onboarding, and user incentives.
+                  Designing a legally compliant system involved coordinating with licensed firearm dealers (FFLs) and verifying submissions against local and federal regulations.
                 </li>
                 <li>
-                  Ensuring user privacy and secure handling of sensitive career-related data (resumes, job preferences, private messages) was a critical requirement.
+                  Protecting user privacy and sensitive data—such as identities, firearm details, and shipping information—required strong encryption and secure data handling protocols.
                 </li>
                 <li>
-                  Designing a seamless experience that caters to two distinct user roles — Pals (job seekers) and Plugs (employees) — without overcomplicating the interface.
+                  Creating an intuitive submission process with real-time status tracking helped users navigate complex steps like valuation, packaging, and shipping.
                 </li>
                 <li>
-                  Balancing transparency (for Pals) with privacy (for Plugs) required granular access controls, status indicators, and communication permissions.
+                  Managing time-sensitive logistics and communications demanded automated email/SMS updates, conditional workflows, and API integrations with shipping providers.
                 </li>
                 <li>
-                  Building a scalable infrastructure capable of handling thousands of profiles, requests, and real-time interactions without performance issues.
+                  Ensuring accessibility across devices and demographics meant optimizing UI/UX for simplicity, speed, and clarity, regardless of technical background.
                 </li>
                 <li>
-                  Managing interactions like resume reviews, referral requests, and interview prep in a structured way required workflow design and modular features.
+                  Building a scalable backend to support national operations involved asynchronous processing, cloud-based storage, and serverless functions for peak loads.
                 </li>
                 <li>
-                  Creating a fair and anti-spam environment where both parties feel respected and engaged — without the platform becoming transactional or impersonal.
+                  Preventing misuse and ensuring platform integrity required rate limiting, form validation, and manual admin review for flagged submissions.
                 </li>
               </ul>
             </div>
@@ -136,11 +132,11 @@ const GunBuyBack = () => {
             >
               <h3 className="text__boxhead">Solution & Result</h3>
               <p className="fz-16 pra">
-                To solve these challenges, we built PalPlug—a scalable, user-first platform that connects job seekers (Pals) with company insiders (Plugs) for referrals, resume reviews, and interview preparation. The system supports dual user roles with dedicated workflows, allowing Plugs to manage their availability and services, while Pals can browse profiles, request support, and track progress in real time.
+                To address the sensitive and critical nature of firearm reduction, we built GunBuyback.org—a secure, community-driven platform that enables individuals to safely and anonymously surrender firearms through licensed dealers. The system facilitates seamless collaboration between users, FFLs, and logistics partners to ensure legal compliance, accurate tracking, and hassle-free pickup or drop-off processes.
 
-                We implemented strong privacy controls, encrypted communication, and role-based access to ensure a secure environment for all interactions. The intuitive UI was designed to simplify career networking without overwhelming users, and automated notifications help streamline follow-ups and status updates. By centralizing mentorship, referrals, and feedback in one platform, PalPlug fosters trust, transparency, and career growth—turning cold job searches into guided journeys powered by real professionals.
+                We prioritized user privacy with end-to-end encryption, anonymized submissions, and secure document handling. From automated shipping labels to real-time status updates, the platform streamlines each step of the process while maintaining transparency and legal integrity. A simple, accessible UI empowers individuals to act responsibly, even without technical knowledge.
 
-                The result is a dynamic ecosystem where users engage meaningfully, professionals give back efficiently, and job seekers gain insider advantages—all through a clean, scalable, and secure digital experience.
+                The result is a scalable, trustworthy digital solution that makes it easier for communities to reduce gun violence. By combining technology with civic responsibility, GunBuyback.org transforms a complex process into a safe, user-friendly experience—bridging the gap between intent and action.
               </p>
             </div>
             <div
@@ -150,23 +146,10 @@ const GunBuyBack = () => {
               style={{ marginBottom: "15px" }}
             >
               <div className="thumb">
-                <img src={PalPlug1} alt="img" />
+                <img src={GunBuyBack1} alt="img" />
               </div>
               <div className="thumb">
-                <img src={PalPlug2} alt="img" />
-              </div>
-            </div>
-            <div
-              className="details__small"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              style={{ marginBottom: "15px" }}
-            >
-              <div className="thumb">
-                <img src={PalPlug3} alt="img" />
-              </div>
-              <div className="thumb">
-                <img src={PalPlug4} alt="img" />
+                <img src={GunBuyBack2} alt="img" />
               </div>
             </div>
             <div
@@ -176,10 +159,23 @@ const GunBuyBack = () => {
               style={{ marginBottom: "15px" }}
             >
               <div className="thumb">
-                <img src={PalPlug5} alt="img" />
+                <img src={GunBuyBack3} alt="img" />
               </div>
               <div className="thumb">
-                <img src={PalPlug6} alt="img" />
+                <img src={GunBuyBack4} alt="img" />
+              </div>
+            </div>
+            <div
+              className="details__small"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              style={{ marginBottom: "15px" }}
+            >
+              <div className="thumb">
+                <img src={GunBuyBack5} alt="img" />
+              </div>
+              <div className="thumb">
+                <img src={GunBuyBack6} alt="img" />
               </div>
             </div>
           </div>

@@ -15,23 +15,18 @@ const categoryList = [
   },
   {
     id: 2,
-    categoryName: "Branding-app",
-    value: "branding_app",
+    categoryName: "Web Applications",
+    value: "web_app",
   },
   {
     id: 3,
-    categoryName: "Los-App",
-    value: "los_app",
-  },
-  {
-    id: 4,
     categoryName: "Landing Page",
     value: "landing_page",
   },
   {
-    id: 5,
-    categoryName: "Website",
-    value: "website",
+    id: 4,
+    categoryName: "Shopify",
+    value: "shopify",
   },
 ];
 const Protfolio = () => {

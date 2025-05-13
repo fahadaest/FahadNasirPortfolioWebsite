@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 
 import { imagesList, projectList } from "../../Utlits/projectList";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
+import EcomOrbit1 from "../../assets/img/ecomOrbit/ecomOrbit1.png";
+import EcomOrbit2 from "../../assets/img/ecomOrbit/ecomOrbit2.png";
+import EcomOrbit3 from "../../assets/img/ecomOrbit/ecomOrbit3.png";
+import EcomOrbit4 from "../../assets/img/ecomOrbit/ecomOrbit4.png";
+import EcomOrbit5 from "../../assets/img/ecomOrbit/ecomOrbit5.png";
+import EcomOrbit6 from "../../assets/img/ecomOrbit/ecomOrbit6.png";
 import PalPlug1 from "../../assets/img/palPlug/palplug1.png";
 import PalPlug2 from "../../assets/img/palPlug/palplug2.png";
 import PalPlug3 from "../../assets/img/palPlug/palplug3.png";
@@ -37,7 +43,7 @@ const EcomOrbit = () => {
     <>
 
       <PageHeader
-        heading={"PalPlug"}
+        heading={"Ecom Orbit"}
         page="Full Stack Development for Ecom Orbit Platform"
       />
       <section className="protfolio__details pb-120">
@@ -47,7 +53,7 @@ const EcomOrbit = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img src={PalPlug1} alt="img" style={{
+            <img src={EcomOrbit2} alt="img" style={{
               height: '700px',
               width: '100%',
               objectFit: 'cover',
@@ -86,14 +92,14 @@ const EcomOrbit = () => {
               data-aos-duration="1400"
             >
               <p className="fz-16 pra ttext__one">
-                PalPlug is a modern networking and career-growth platform that bridges the gap between job seekers (Pals) and experienced professionals (Plugs) within companies. Designed to simplify the job search process, PalPlug enables company employees to register as “Plugs” and offer valuable services such as employee referrals, resume reviews, and interview preparation.
+                eComOrbit is a comprehensive financial analytics platform designed to help e-commerce businesses accurately calculate revenues, taxes, and other key financial metrics. Built using the MERN stack, it integrates seamlessly with popular marketplaces like Shopify, Amazon, and WooCommerce to provide real-time insights into sales performance, tax obligations, and profit margins. The platform aims to simplify financial management for online retailers by automating complex calculations and consolidating data from multiple sources.
               </p>
               <p className="fz-16 pra">
-                Over several months of iterative development and user research, PalPlug was built with a focus on trust, accessibility, and real-world career outcomes. The platform empowers job seekers to connect directly with industry insiders, increasing their chances of landing interviews through meaningful, personalized support. Each Plug has a dedicated profile showcasing their availability, expertise, and the companies they can refer to, while Pals can browse, connect, and track their progress through a clean and intuitive interface.
+                Key features of eComOrbit include automated tax calculations based on regional regulations, detailed revenue reports, and customizable dashboards that offer a clear overview of business performance. The system also supports multi-currency transactions and provides tools for forecasting and budgeting. By leveraging secure APIs and robust data processing algorithms, eComOrbit ensures that users have access to accurate and up-to-date financial information, enabling informed decision-making.
               </p>
               <br></br>
               <p className="fz-16 pra">
-                PalPlug is more than just a referral platform — it’s a peer-powered ecosystem for mentorship and opportunity. With role-based access, secure messaging, real-time notifications, and scalable architecture, the platform supports thousands of users without compromising on performance or privacy. Whether you're a student breaking into tech or a mid-career professional seeking guidance, PalPlug makes the job-hunting journey more human, transparent, and effective.
+                The result is a powerful tool that empowers e-commerce entrepreneurs to manage their finances with confidence. Whether you're a small business owner or managing a large online store, eComOrbit provides the insights and tools needed to optimize financial operations and drive growth.
               </p>
             </div>
             <div
@@ -104,28 +110,28 @@ const EcomOrbit = () => {
               <h3 className="text__boxhead">Challenge</h3>
               <ul className="challenge__list">
                 <li>
-                  Building trust between job seekers and company insiders (Plugs) was essential, especially when dealing with referrals and career advice.
+                  Integrating data from multiple e-commerce platforms (Shopify, Amazon, WooCommerce) while maintaining consistency and accuracy across APIs was a key technical challenge.
                 </li>
                 <li>
-                  Encouraging employees to register as Plugs and actively participate required clear value propositions, intuitive onboarding, and user incentives.
+                  Designing financial calculation logic that adapts to different tax laws, currencies, and regional compliance standards required extensive research and dynamic configuration.
                 </li>
                 <li>
-                  Ensuring user privacy and secure handling of sensitive career-related data (resumes, job preferences, private messages) was a critical requirement.
+                  Ensuring the security of sensitive financial data such as sales reports, customer transactions, and tax documents through role-based access and encryption protocols.
                 </li>
                 <li>
-                  Designing a seamless experience that caters to two distinct user roles — Pals (job seekers) and Plugs (employees) — without overcomplicating the interface.
+                  Creating intuitive dashboards and visualizations that could break down complex metrics into simple, actionable insights for users with varying levels of financial expertise.
                 </li>
                 <li>
-                  Balancing transparency (for Pals) with privacy (for Plugs) required granular access controls, status indicators, and communication permissions.
+                  Building a flexible, scalable backend architecture to handle large volumes of data in real-time without performance degradation during peak transaction periods.
                 </li>
                 <li>
-                  Building a scalable infrastructure capable of handling thousands of profiles, requests, and real-time interactions without performance issues.
+                  Implementing multi-currency support and precise currency conversion logic to accommodate global sellers operating across different markets.
                 </li>
                 <li>
-                  Managing interactions like resume reviews, referral requests, and interview prep in a structured way required workflow design and modular features.
+                  Providing forecasting and budgeting tools that dynamically adapt based on historical data and current trends required predictive logic and efficient data modeling.
                 </li>
                 <li>
-                  Creating a fair and anti-spam environment where both parties feel respected and engaged — without the platform becoming transactional or impersonal.
+                  Offering a seamless user experience while presenting large volumes of data involved careful UI/UX planning and frontend optimization for responsiveness and clarity.
                 </li>
               </ul>
             </div>
@@ -136,11 +142,11 @@ const EcomOrbit = () => {
             >
               <h3 className="text__boxhead">Solution & Result</h3>
               <p className="fz-16 pra">
-                To solve these challenges, we built PalPlug—a scalable, user-first platform that connects job seekers (Pals) with company insiders (Plugs) for referrals, resume reviews, and interview preparation. The system supports dual user roles with dedicated workflows, allowing Plugs to manage their availability and services, while Pals can browse profiles, request support, and track progress in real time.
+                To address the challenges of e-commerce business management, we developed eComOrbit—an intelligent, all-in-one platform designed to help e-commerce businesses calculate revenues, taxes, and more. The platform seamlessly integrates with popular e-commerce platforms such as Shopify, Amazon, and WooCommerce, allowing business owners to consolidate data, streamline financial tracking, and gain real-time insights into their operations.
 
-                We implemented strong privacy controls, encrypted communication, and role-based access to ensure a secure environment for all interactions. The intuitive UI was designed to simplify career networking without overwhelming users, and automated notifications help streamline follow-ups and status updates. By centralizing mentorship, referrals, and feedback in one platform, PalPlug fosters trust, transparency, and career growth—turning cold job searches into guided journeys powered by real professionals.
+                We implemented advanced tax algorithms, customizable reporting, and multi-currency support to ensure the platform adapts to businesses operating across different regions and tax jurisdictions. With a focus on accuracy and ease of use, eComOrbit’s intuitive interface enables users to manage complex calculations, such as tax rates and profit margins, effortlessly. Automated alerts and forecasting tools help users stay on top of their financial health and compliance requirements.
 
-                The result is a dynamic ecosystem where users engage meaningfully, professionals give back efficiently, and job seekers gain insider advantages—all through a clean, scalable, and secure digital experience.
+                The result is a powerful, scalable solution that empowers e-commerce business owners to make data-driven decisions, optimize operations, and ensure financial accuracy. By centralizing revenue and tax management in one user-friendly platform, eComOrbit makes business finances more transparent and manageable, helping users grow and succeed in the competitive e-commerce landscape.
               </p>
             </div>
             <div
@@ -150,23 +156,10 @@ const EcomOrbit = () => {
               style={{ marginBottom: "15px" }}
             >
               <div className="thumb">
-                <img src={PalPlug1} alt="img" />
+                <img src={EcomOrbit1} alt="img" />
               </div>
               <div className="thumb">
-                <img src={PalPlug2} alt="img" />
-              </div>
-            </div>
-            <div
-              className="details__small"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              style={{ marginBottom: "15px" }}
-            >
-              <div className="thumb">
-                <img src={PalPlug3} alt="img" />
-              </div>
-              <div className="thumb">
-                <img src={PalPlug4} alt="img" />
+                <img src={EcomOrbit2} alt="img" />
               </div>
             </div>
             <div
@@ -176,10 +169,23 @@ const EcomOrbit = () => {
               style={{ marginBottom: "15px" }}
             >
               <div className="thumb">
-                <img src={PalPlug5} alt="img" />
+                <img src={EcomOrbit3} alt="img" />
               </div>
               <div className="thumb">
-                <img src={PalPlug6} alt="img" />
+                <img src={EcomOrbit4} alt="img" />
+              </div>
+            </div>
+            <div
+              className="details__small"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              style={{ marginBottom: "15px" }}
+            >
+              <div className="thumb">
+                <img src={EcomOrbit5} alt="img" />
+              </div>
+              <div className="thumb">
+                <img src={EcomOrbit6} alt="img" />
               </div>
             </div>
           </div>
