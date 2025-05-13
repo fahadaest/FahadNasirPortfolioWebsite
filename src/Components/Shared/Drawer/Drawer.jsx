@@ -20,16 +20,13 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
           <img src={logo} alt="img" />
         </Link>
         <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam,
-          exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam
-          nihil
+          I'm Fahad Nasir, I'm a Full Stack Developer, Currently residing in the International City Dubai, Fahad operates globally and is ready to take on any coding challenge.
         </p>
         <div className="sub__contact-left d-grid">
           <div className="sub__contac-item">
             <div className="content">
               <span className="address d-block"> address </span>
-              <span className="textp"> Victoria Street London, </span>
+              <span className="textp"> International City, Dubai  </span>
             </div>
           </div>
           <div className="sub__contac-item">

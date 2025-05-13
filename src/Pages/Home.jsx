@@ -31,8 +31,8 @@ const Home = () => {
       <MarqueeWapper direction="right" images={images2} type={"text"} />
       <Awards />
       <Projects />
-      <Metting />
-      {/* <Services isHeading={true} />
+      {/* <Metting />
+      <Services isHeading={true} />
       <WorkeProcess />
       <Testimonial />
       <Blogs />

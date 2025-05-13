@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="container">
           <div className="copyright">
             <p className="white">
-              Copyright © 2023 {" "}
+              Copyright © 2025 {" "}
               <Link to={"/"} className="base">
                 Fahad.
               </Link>{" "}

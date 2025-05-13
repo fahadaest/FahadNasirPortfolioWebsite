@@ -47,12 +47,12 @@ const Banner = () => {
             <div className="banner__content">
               <Link to={""} className="bn__currently">
                 <span className="d-block">
-                  Currently available for freelance
+                  Actively seeking new opportunities
                 </span>
-                <span className="d-flex gap-4 align-items-center">
+                {/* <span className="d-flex gap-4 align-items-center">
                   worldwide
                   <i className="bi bi-arrow-up-right"></i>
-                </span>
+                </span> */}
               </Link>
               <h1>
                 <span className="hone"> Full Stack</span>
@@ -121,12 +121,12 @@ const Banner = () => {
           </ul>
         </div>
       </div>
-      {lightboxOpen && (
+      {/* {lightboxOpen && (
         <VideoPlay
           setLightboxOpen={setLightboxOpen}
           url="https://www.youtube.com/embed/tgbNymZ7vqY"
         />
-      )}
+      )} */}
     </section>
   );
 };
